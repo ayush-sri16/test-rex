@@ -1,0 +1,96 @@
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #mn_menu {
+    display: none;
+  }
+  .logo-content{
+      font-size: 1.7rem;
+  }
+  .active{
+      flex-direction: column;
+  }
+  #signUp{
+      display: none;
+  }
+  .login>button{
+      margin-top: 15px;
+  }
+  /* .header{
+      width: 100vw;
+  } */
+  .header>div h1{
+      text-align: left;
+      padding: 0px 13px;
+  }
+  .header>div p{
+      width: 100vw;
+      padding: 0px 13px;
+      text-align: left;
+      font-size: 1.3rem;
+  }
+  .home-1>div h2{
+    font-size: 1.6em;
+    border-bottom: none;
+  }
+  .automation_content div{
+      width: 90vw;
+      padding: 0px 10px;
+  }
+  .automation_content img{
+      height: 14rem;
+  }
+  .home-1{
+      padding: 30px;
+  }
+  .home-2{
+      padding: 30px;
+      flex-direction: column;
+  }
+  .home-2>div{width: 90vw;
+    padding: 0px 10px;
+  }
+  .home-2>div img{
+      height: 14rem;
+  }
+  .home-2 div h3{
+      font-size: 2.5rem;
+  }
+  #content p{
+      font-family: 'Poppins', sans-serif;
+  }
+  .testimonials>div h4{
+      font-size: 1.4rem;
+  }
+  .all-box{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .testimonials{
+      padding-bottom: 50px;
+  }
+  #testi-1,#testi-2,#testi-3{
+      display: none;
+  }
+  h6{
+      font-size: 1.4rem;
+  }
+  .get-started>button{
+      font-size: 1rem;
+  }
+  .main{
+      padding: 0px 30px;
+  }
+  .social-media{
+      margin-top: 10px;
+      text-align: center;
+  }
+  .copyright-text{
+      text-align: center;
+  }
+  form{
+      width: 70vw;
+  }
+  form button{
+      padding: 16px;
+  }
+}

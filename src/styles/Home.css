@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.home-1{
+    min-height: 70vh;
+    padding: 50px;
+}
+.home-1>div h2{
+    padding: 17px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #10a9c1;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 4px solid;
+    margin-top: 20px;
+}
+.automation_content{
+    padding: 100px 0px 0px 0px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.automation_content div{
+    width: 35%;
+}
+.automation_content>div h3{
+font-size: 2.5rem;
+}
+.automation_content>div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    
+}
+.automation_content img{
+    height: 25rem;
+}
+/* ________________________________________ */
+.home-2{
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-2>div img{
+    height: 25rem;
+
+}
+.home-2>div{
+    /* margin: 0px 50px; */
+    width: 35%;
+}
+#c
+.home-2 div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+.home-2 div h3{
+    font-size: 2.5rem;
+}
+
+/* ________________________________________________________ */
+
+.testimonials{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials>div h4{
+    font-size: 2.7rem;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 25px;
+}
+.all-box{
+    width: 84.3%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2.14286rem;
+}
+.box{
+    
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 12px 48px 0 rgb(0 0 0 / 10%);
+    transition: border-color .2s ease-in-out,transform .2s linear;
+    
+}
+.box>div{
+    padding: 1.71429rem;
+    text-align: center;
+}
+.box>div>p{
+    text-align: center;
+    padding: 12px 0;
+    line-height: 1.7;
+    color: #637381;
+    margin: 0 auto;
+}
+.testimonial-name{
+    text-align: center;
+    display: block;
+    padding: 12px 0;
+    font-size: 1.85714rem;
+    font-style: italic;
+    color: #637381;
+}
+/* ________________________________________________________________ */
+.footer-login{
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)), url(../assets/footer_image.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-login div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h6{
+    margin-bottom: 44px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: aliceblue;
+}

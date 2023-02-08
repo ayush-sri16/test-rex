@@ -1,0 +1,46 @@
+.my-form{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(79deg, #296895,#296895 15%,#addaff);
+    color: aliceblue;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+}
+label{
+    padding: 0.3rem 0;
+}
+input{
+    margin: 0.5rem 0px;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+form button{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    color: #033085;
+    transition: 0.5s;
+}
+form button:hover{
+    background-color: #004379;
+    color: #ffffff;
+}
+
+.my-form p button{
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.my-form p button:hover{
+    text-decoration: none;
+}
